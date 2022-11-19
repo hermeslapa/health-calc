@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "health-calc"
+version = "0.1.0"
+description = "Health calc project for the Integrated project class"
+authors = ["Hermes Lapa <hermes.a.lapa@gmail.com>"]
+readme = "README.md"
+packages = [{include = "health_calc"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+black = "^22.10.0"
+pytest = "^7.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
